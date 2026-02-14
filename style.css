@@ -699,6 +699,27 @@ body {
         width: 220px;
         height: 140px;
     }
+
+    .counter-values {
+        gap: 0.6rem;
+    }
+
+    .counter-unit {
+        min-width: 60px;
+        padding: 0.5rem 0.7rem;
+    }
+
+    .counter-unit span {
+        font-size: 1.4rem;
+    }
+
+    .counter-unit small {
+        font-size: 0.65rem;
+    }
+
+    .counter-label {
+        font-size: 1.2rem;
+    }
 }
 
 /* ========== SPARKLE CLICK EFFECT ========== */

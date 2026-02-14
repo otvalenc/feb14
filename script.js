@@ -158,6 +158,30 @@ document.getElementById('restartBtn').addEventListener('click', () => {
     showSection('hero');
 });
 
+// ========== LOVE COUNTER ==========
+
+const togetherSince = new Date(2023, 9, 26, 22, 0, 0); // October 26, 2023 at 10pm
+
+function updateCounter() {
+    const now = new Date();
+    let diff = Math.floor((now - togetherSince) / 1000);
+
+    const days = Math.floor(diff / 86400);
+    diff -= days * 86400;
+    const hours = Math.floor(diff / 3600);
+    diff -= hours * 3600;
+    const mins = Math.floor(diff / 60);
+    const secs = diff - mins * 60;
+
+    document.getElementById('counterDays').textContent = days;
+    document.getElementById('counterHours').textContent = hours;
+    document.getElementById('counterMins').textContent = mins;
+    document.getElementById('counterSecs').textContent = secs;
+}
+
+updateCounter();
+setInterval(updateCounter, 1000);
+
 // ========== INIT ==========
 
 createFloatingHearts();

@@ -26,6 +26,14 @@ body {
     color: var(--dark);
     overflow-x: hidden;
     min-height: 100vh;
+    animation: bgShift 12s ease-in-out infinite;
+}
+
+@keyframes bgShift {
+    0%, 100% { background-color: #fef6f0; }
+    25% { background-color: #fdf0f4; }
+    50% { background-color: #f8e8ee; }
+    75% { background-color: #fef0e8; }
 }
 
 /* ========== FLOATING HEARTS BG ========== */
@@ -117,8 +125,64 @@ body {
     font-size: 1.5rem;
     font-style: italic;
     color: var(--deep-rose);
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     font-weight: 300;
+}
+
+/* ========== LOVE COUNTER ========== */
+.love-counter {
+    margin-bottom: 2rem;
+}
+
+.counter-label {
+    font-family: 'Caveat', cursive;
+    font-size: 1.5rem;
+    color: var(--wine);
+    margin-bottom: 0.8rem;
+}
+
+.counter-values {
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.counter-unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 12px;
+    padding: 0.6rem 1rem;
+    min-width: 70px;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(201, 87, 126, 0.15);
+}
+
+.counter-unit span {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--wine);
+    line-height: 1.2;
+}
+
+.counter-unit small {
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.75rem;
+    color: var(--deep-rose);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.counter-sublabel {
+    font-family: 'Nunito', sans-serif;
+    font-style: italic;
+    font-size: 0.95rem;
+    color: var(--deep-rose);
+    margin-top: 0.5rem;
+    opacity: 0.8;
 }
 
 .enter-btn {

@@ -1,17 +1,17 @@
 // ========== DATA (Personalize these!) ==========
 
 const reasons = [
-    "That adorable face of yours...I could stare at it forever",
-    "The way you laugh, like the whole world stops just to listen",
-    "When you cough in my mouth even though I ask you not to... and somehow it's still cute",
-    "How incredibly proud I am of everything you've achieved academically",
-    "Watching you grow socially...you inspire me every single day",
-    "Your emotional growth blows me away, and I'm so honored to witness it",
-    "The fact that I get to call you mine still feels like a dream",
+    "That adorable face of yours that I could stare at forever",
+    "The way you laugh and I know I will always stop to listen",
+    "When you cough in my mouth even though I ask you not to...",
+    "How incredibly proud I am of your performance in class",
+    "Watching you grow socially, you inspire me so much",
+    "Your emotional growth and how much more is yet to come",
+    "The fact that I get to call you mine FOREVER",
     "How your face scrunches up when you're being silly",
     "You make me want to be the best version of myself",
     "Every moment with you feels like exactly where I'm supposed to be",
-    "Your strength...you don't even realize how strong you are, baby",
+    "Your discipline when it comes to the most important things",
     "Being your boyfriend is the greatest thing that's ever happened to me"
 ];
 
